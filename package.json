@@ -1,7 +1,7 @@
 {
-  "name": "template-repo",
+  "name": "super-galactic-age-calculator",
   "version": "1.0.0",
-  "description": "#### (Brief Description of Application)",
+  "description": "#### A little program to caluclate ages on various planets",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode development",
