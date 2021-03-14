@@ -7,4 +7,8 @@ export default class Jupiter {
   jupiterAge() {
     return this.earthAge / 11.86
   }
+
+  enterEther() {
+
+  }
 };
