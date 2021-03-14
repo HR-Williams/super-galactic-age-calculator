@@ -13,6 +13,6 @@ export default class Mars {
   }
 
   bonusTime() {
-    
+    return this.marsAge() - this.enterEther()
   }
 };
