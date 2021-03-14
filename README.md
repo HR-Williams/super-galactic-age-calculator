@@ -18,7 +18,7 @@
 * _popper.js_
 
 ## Description
-This is a program where user's will be able to enter an age in Earth years and be able to see their equivalant age in Jupiter, Mars, Mercury, and/or Venus Years. The user will also be able to see other super galactic milestones in planetary years, including the age they are expected to leave their human form and how many bonus intergalactic years they have accumulated.
+This is a program where users will be able to enter an age in Earth years and be able to see their equivalant age in Jupiter, Mars, Mercury, and/or Venus Years. The user will also be able to see other super galactic milestones in planetary years, including the age they are expected to leave their human form and how many bonus intergalactic years they have accumulated.
 
 ## Setup/Installation Requirements
 
