@@ -9,6 +9,6 @@ export default class Mars {
   }
 
   enterEther() {
-    
+    return this.nextPhaseAge / 1.88
   }
 };
