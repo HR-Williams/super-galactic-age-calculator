@@ -9,6 +9,6 @@ export default class Venus {
   }
 
   enterEther() {
-    
+    return this.nextPhaseAge / .62
   }
 };
