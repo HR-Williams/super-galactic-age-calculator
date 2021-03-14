@@ -6,4 +6,9 @@ describe('Venus', () => {
     const exampleVenus = new Venus(40);
     expect(exampleVenus.earthAge).toEqual(40);
   });
+
+  test ("should correctly determine a person's age in Venus years", () => {
+    const exampleVenus = new Venus(40)
+    expect(exampleVenus.venusAge()).toEqual(64.5161290323);
+  })
 });

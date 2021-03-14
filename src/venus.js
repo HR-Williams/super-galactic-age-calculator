@@ -3,5 +3,7 @@ export default class Venus {
   this.earthAge = earthAge; 
 }
 
-
+venusAge() {
+  
+  }
 };
