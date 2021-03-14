@@ -9,6 +9,6 @@ describe('Mercury', () => {
 
   test ("should correctly determine a person's age in Mercury years", () => {
     const exampleMercury = new Mercury(40)
-    expect(exampleMercury.mercuryAge()).toEqual(166.666666667);
+    expect(exampleMercury.mercuryAge()).toEqual(166.66666666666669);
   })
 });
