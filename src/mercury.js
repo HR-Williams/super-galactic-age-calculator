@@ -1,9 +1,9 @@
 export default class Mercury {
-  constructor(year) {
-  this.year = year; 
+  constructor(earthAge) {
+  this.earthAge = earthAge; 
 }
 
-exampleMethod() {
-  return "I'm an example";
+mercuryAge() {
+  // return "I'm an example";
   }
 };
