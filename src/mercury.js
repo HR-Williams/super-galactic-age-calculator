@@ -4,7 +4,11 @@ export default class Mercury {
   this.nextPhaseAge = nextPhaseAge; 
   }
 
-mercuryAge() {
-  return this.earthAge / .24
+  mercuryAge() {
+    return this.earthAge / .24
+  }
+
+  enterEther() {
+
   }
 };

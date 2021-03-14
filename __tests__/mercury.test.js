@@ -12,4 +12,9 @@ describe('Mercury', () => {
     const exampleMercury = new Mercury(40)
     expect(exampleMercury.mercuryAge()).toEqual(166.66666666666669);
   })
+
+  test ("should correctly determine a person's age on Mercury when their human body form will cease", () => {
+    const exampleMercury = new Mercury(40,99)
+    expect(exampleMercury.enterEther()).toEqual(412.5);
+  })
 });
