@@ -1,6 +1,6 @@
 export default class Mercury {
   constructor(year) {
-  // this.year = year; 
+  this.year = year; 
 }
 
 exampleMethod() {
