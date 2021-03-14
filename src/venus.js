@@ -13,6 +13,6 @@ export default class Venus {
   }
 
   bonusTime() {
-    
+    return this.venusAge() - this.enterEther();
   }
 };
