@@ -1,6 +1,7 @@
 export default class Venus {
   constructor(earthAge, nextPhaseAge) {
-  this.earthAge = earthAge; 
+  this.earthAge = earthAge;
+  this.nextPhaseAge = nextPhaseAge; 
 }
 
 venusAge() {
