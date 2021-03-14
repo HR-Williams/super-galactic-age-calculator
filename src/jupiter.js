@@ -1,6 +1,7 @@
 export default class Jupiter {
-  constructor(earthAge) {
+  constructor(earthAge, nextPhaseAge) {
     this.earthAge = earthAge;
+    this.nextPhaseAge = nextPhaseAge;
   }
 
   jupiterAge() {
