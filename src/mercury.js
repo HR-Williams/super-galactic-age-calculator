@@ -1,7 +1,7 @@
 export default class Mercury {
   constructor(earthAge, nextPhaseAge) {
-  this.earthAge = earthAge;
-  this.nextPhaseAge = nextPhaseAge; 
+    this.earthAge = earthAge;
+    this.nextPhaseAge = nextPhaseAge; 
   }
 
   mercuryAge() {
@@ -15,4 +15,4 @@ export default class Mercury {
   bonusTime() {
     return this.mercuryAge() - this.enterEther();
   }
-};
+}

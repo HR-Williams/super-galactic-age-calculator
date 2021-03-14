@@ -5,14 +5,14 @@ export default class Jupiter {
   }
 
   jupiterAge() {
-    return this.earthAge / 11.86
+    return this.earthAge / 11.86;
   }
 
   enterEther() {
-    return this.nextPhaseAge / 11.86
+    return this.nextPhaseAge / 11.86;
   }
 
   bonusTime() {
-    return this.jupiterAge() - this.enterEther()
+    return this.jupiterAge() - this.enterEther();
   }
-};
+}

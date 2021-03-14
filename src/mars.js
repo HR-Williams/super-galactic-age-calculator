@@ -5,14 +5,14 @@ export default class Mars {
   }
 
   marsAge() {
-    return this.earthAge / 1.88
+    return this.earthAge / 1.88;
   }
 
   enterEther() {
-    return this.nextPhaseAge / 1.88
+    return this.nextPhaseAge / 1.88;
   }
 
   bonusTime() {
-    return this.marsAge() - this.enterEther()
+    return this.marsAge() - this.enterEther();
   }
-};
+}
