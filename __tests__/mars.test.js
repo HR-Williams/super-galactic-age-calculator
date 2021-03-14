@@ -12,4 +12,8 @@ describe('Mars', () => {
     const exampleMars= new Mars(40)
     expect(exampleMars.marsAge()).toEqual(21.27659574468085);
   })
+  test ("should correctly determine a persons age on Mars when their human body form will cease", () => {
+    const exampleMars = new Mars(40,99)
+    expect(exampleMars.enterEther()).toEqual(52.65957446808511);
+  })
 });
