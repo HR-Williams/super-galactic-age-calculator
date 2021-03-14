@@ -11,4 +11,8 @@ export default class Mercury {
   enterEther() {
     return this.nextPhaseAge / .24
   }
+
+  bonusTime() {
+  
+  }
 };

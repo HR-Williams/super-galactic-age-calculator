@@ -17,4 +17,9 @@ describe('Mercury', () => {
     const exampleMercury = new Mercury(40,99)
     expect(exampleMercury.enterEther()).toEqual(412.5);
   })
+  
+  test ("should determine how long a person has lived in their human body form past the expected time in Mercury Years", () => {
+    const anotherMercury = new Mercury(199,99)
+    expect(anotherMercury.bonusTime()).toEqual(416.66666666666674);
+  })
 });
