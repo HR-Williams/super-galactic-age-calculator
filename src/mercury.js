@@ -1,7 +1,6 @@
 export default class Mercury {
-  constructor(age) {
-  // this.age = age;
-  
+  constructor(year) {
+  // this.year = year; 
 }
 
 exampleMethod() {
