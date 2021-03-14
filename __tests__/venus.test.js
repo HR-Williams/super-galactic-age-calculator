@@ -9,6 +9,6 @@ describe('Venus', () => {
 
   test ("should correctly determine a person's age in Venus years", () => {
     const exampleVenus = new Venus(40)
-    expect(exampleVenus.venusAge()).toEqual(64.5161290323);
+    expect(exampleVenus.venusAge()).toEqual( 64.51612903225806);
   })
 });
