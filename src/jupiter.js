@@ -11,4 +11,8 @@ export default class Jupiter {
   enterEther() {
     return this.nextPhaseAge / 11.86
   }
+
+  bonusTime() {
+    
+  }
 };

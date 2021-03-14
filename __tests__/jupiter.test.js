@@ -17,4 +17,9 @@ describe('Jupiter', () => {
     const exampleJupiter = new Jupiter(40,99)
     expect(exampleJupiter.enterEther()).toEqual(8.347386172006745);
   })
+
+  test ("should determine how long a person has lived in their human body form past the expected time in Jupiter Years", () => {
+    const anotherJupiter = new Jupiter(199,99)
+    expect(anotherJupiter.bonusTime()).toEqual(8.38936740242555);
+  })
 });
