@@ -3,7 +3,7 @@ import Mercury from './../src/mercury.js';
 describe('Mercury', () => {
 
   test("should correctly create a mercury object with a user's earth age", () => {
-    const exampleMercury = new Mercury(40);
+    const exampleMercury = new Mercury(40, 99);
     expect(exampleMercury.earthAge).toEqual(40);
     expect(exampleMercury.nextPhaseAge).toEqual(99);
   });
