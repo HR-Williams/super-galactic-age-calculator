@@ -5,14 +5,14 @@ export default class Mercury {
   }
 
   mercuryAge() {
-    return this.earthAge / .24
+    return this.earthAge / .24;
   }
 
   enterEther() {
-    return this.nextPhaseAge / .24
+    return this.nextPhaseAge / .24;
   }
 
   bonusTime() {
-  
+    return this.mercuryAge() - this.enterEther();
   }
 };
