@@ -17,4 +17,9 @@ describe('Venus', () => {
     const exampleVenus = new Venus(40,99)
     expect(exampleVenus.enterEther()).toEqual(159.67741935483872);
   })
+
+  test ("should determine how long a person has lived in their human body form past the expected time in Venus Years", () => {
+    const anotherVenus = new Venus(199,99)
+    expect(anotherVenus.bonusTime()).toEqual(161.29032258064518);
+  })
 });
