@@ -4,6 +4,6 @@ export default class Mars {
   }
 
   marsAge() {
-    
+    return this.earthAge / 1.88
   }
 };
