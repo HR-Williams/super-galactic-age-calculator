@@ -4,6 +4,6 @@ export default class Venus {
 }
 
 venusAge() {
-  
+  return this.earthAge / .62
   }
 };
