@@ -12,6 +12,6 @@ export default class User {
   }
 
   jupiterAge() {
-    
+    return this.earthAge / 11.86;
   }
 }
