@@ -17,6 +17,11 @@ describe('User', () => {
     expect(hr.marsAge()).toEqual(21.27659574468085);
   });
 
+  test ("should correctly determine a user's age in Venus years", () => {
+    const hr = new User(40)
+    expect(hr.venusAge()).toEqual( 64.51612903225806);
+  })  
+
   test ("should correctly determine a user's age in Jupiter years", () => {
     const hr = new User(40)
     expect(hr.jupiterAge()).toEqual(3.3726812816188874);

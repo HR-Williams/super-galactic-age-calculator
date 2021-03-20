@@ -7,6 +7,10 @@ export default class User {
     return this.earthAge / .24;
   }
 
+  venusAge() {
+
+  }
+  
   marsAge() {
     return this.earthAge / 1.88;
   }
