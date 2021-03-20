@@ -6,4 +6,7 @@ export default class User {
   mercuryAge() {
     return this.earthAge / .24;
   }
+
+  marsAge() {
+  }
 }

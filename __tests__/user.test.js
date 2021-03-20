@@ -10,4 +10,10 @@ describe('User', () => {
     const hr = new User(40)
     expect(hr.mercuryAge()).toEqual(166.66666666666669);
   })
+
+
+  test ("should correctly determine a user's age in Mars years", () => {
+    const hr= new User(40)
+    expect(hr.marsAge()).toEqual(21.27659574468085);
+  });
 });
