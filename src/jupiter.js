@@ -15,4 +15,8 @@ export default class Jupiter {
   bonusTime() {
     return this.jupiterAge() - this.enterEther();
   }
+
+  stringifyTime() {
+
+  }
 }
