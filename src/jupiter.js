@@ -17,8 +17,6 @@ export default class Jupiter {
   }
 
   stringifyTime() {
-  //   if (this.earthAge < this.nextPhaseAge) {
-  //     return (`You are expected to have `)
-  //   }
+  return "string"
   }
 }
