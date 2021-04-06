@@ -27,6 +27,10 @@ describe('Jupiter', () => {
     const exampleJupiter = new Jupiter(40,99)
     expect(exampleJupiter.stringifyTime()).toMatch("You are expected to have 4.974704890387858 more Jupiter years until you will leave your body to enter the ether.")
   })
-
+  
+  test("should tell user in a sentence when they are expected to leave their human body form or how long their human body has remained past it's expected time in Jupiter Years", () => {
+    const myJupiter = new Jupiter(199,99)
+    expect(myJupiter.stringifyTime()).toMatch("You have accrued 8.431703204047219 Jupiter years of Bonus time.")
+})
    
 });
